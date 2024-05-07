@@ -1,0 +1,27 @@
+#woody
+#deb cdrom:[Debian GNU/Linux 3.0 _Woody_ - fsn.hu's i386 Binary-1 (20020222)]/ unstable contrib main non-US/contrib non-US/main non-US/non-free non-free
+deb http://ftp.us.debian.org/debian woody main non-free contrib
+deb http://non-us.debian.org/debian-non-US woody/non-US main contrib non-free
+deb http://people.debian.org/~jaqque woody main contrib non-free
+deb http://security.debian.org/ woody/updates main contrib non-free
+deb-src http://ftp.us.debian.org/debian woody main non-free contrib
+deb-src http://non-us.debian.org/debian-non-US woody/non-US main contrib non-free
+deb-src http://security.debian.org/ woody/updates main contrib non-free
+
+#sid
+deb http://ftp.us.debian.org/debian sid main non-free contrib
+deb http://non-us.debian.org/debian-non-US sid/non-US main contrib non-free
+deb http://people.debian.org/~jaqque sid main contrib non-free
+#deb http://security.debian.org sid/updates main contrib non-free
+deb-src http://ftp.us.debian.org/debian sid main non-free contrib
+deb-src http://non-us.debian.org/debian-non-US sid/non-US main contrib non-free
+#deb-src http://security.debian.org sid/updates main contrib non-free
+
+#potato
+deb http://http.us.debian.org/debian potato main contrib non-free
+deb http://non-us.debian.org/debian-non-US potato/non-US main contrib non-free
+deb http://security.debian.org/ potato/updates main contrib non-free
+deb http://people.debian.org/~jaqque potato main contrib non-free
+deb-src http://http.us.debian.org/debian potato main contrib non-free
+deb-src http://non-us.debian.org/debian-non-US potato/non-US main contrib non-free
+deb-src http://security.debian.org potato/updates main contrib non-free
