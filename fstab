@@ -1,0 +1,5 @@
+# lsblk -o +UUID
+# sudo cat fstab | sed "s|PREFIXLOC|/run/media/user|g" >> /etc/fstab
+UUID=5B038F34052F8C99 PREFIXLOC/Silicon\040Power\040Speedy auto nosuid,nodev,nofail,x-systemd.device-timeout=5,uid=1000,gid=1000,fmask=0133,dmask=0022 0 0
+UUID=1CFE83ABFE837BB0 PREFIXLOC/Seagate\040BackupPlus      auto nosuid,nodev,nofail,x-systemd.device-timeout=5,uid=1000,gid=1000,fmask=0133,dmask=0022 0 0
+UUID=205CDBF943B5BFC8 PREFIXLOC/WD\040My\040Book           auto nosuid,nodev,nofail,x-systemd.device-timeout=5,uid=1000,gid=1000,fmask=0133,dmask=0022 0 0
